@@ -102,23 +102,31 @@ nav ul li a{
     background: #39cccc;
   }
   .action-buttons a:nth-child(2):hover{
-    background: #2da3a3;
+      background: #2da3a3;
   }
-  .action-buttons button{
+
+.action-buttons button {
     appearance: none;
-    background-color:#ff4136;
-    border:none
-  }
-  .action-buttons button:hover{
-    background-color:#ce352d;
-  }
-  .pagination ul{
+    background-color: #ff4136;
+    border: none
+}
+
+.action-buttons button:hover {
+    background-color: #ce352d;
+}
+
+button {
+    cursor: pointer;
+}
+
+.pagination ul {
     display: flex;
     justify-content: center;
-    gap:15px;
-    margin-top:40px
-  }
-  .pagination ul li.page a{
+    gap: 15px;
+    margin-top: 40px
+}
+
+.pagination ul li.page a {
     height: 35px;
     display: inline-block;
     text-align: center;
