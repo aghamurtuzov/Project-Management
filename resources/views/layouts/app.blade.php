@@ -12,7 +12,7 @@
     <nav id="menu">
         <ul>
             <li><a href="/">Projects</a></li>
-            <li><a href="/https://github.com/aghamurtuzov/Project-Management.git">Documention</a></li>
+            <li><a href="https://github.com/aghamurtuzov/Project-Management.git">Documention</a></li>
         </ul>
     </nav>
     <div id="main">
