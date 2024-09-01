@@ -25,7 +25,7 @@ To set up the project, follow these steps:
 To set up the project, follow these steps:
 
 ```bash
-   git clone https://github.com/your_username/project-management-tool-development.git 
+   git clone https://github.com/aghamurtuzov/Project-Management.git
    ```
 
 2.Install Dependencies
