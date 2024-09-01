@@ -18,7 +18,7 @@
     <div id="main">
         <header>
             <div class="link-header">
-                <a href="">
+                <a href="#">
                     <img src="{{asset('img/avatar.png')}}" alt=""/>
                     <a href="{{ route('logout') }}"
                        onclick="event.preventDefault();
