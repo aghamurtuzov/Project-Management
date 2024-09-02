@@ -53,7 +53,7 @@
     const form = document.getElementById('modalForm');
     const searchForm = document.getElementById('searchForm');
     let currentItemId = null;
-    const apiUrl = '/api/project';
+    const apiUrl = '/api/v1/project';
 
     // Open modal function for editing or adding projects
     const openModal = (title, name = '', description = '', id = null) => {

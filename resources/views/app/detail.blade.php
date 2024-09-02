@@ -106,7 +106,7 @@
         if (event.target == modal) modal.style.display = 'none';
     };
 
-    const apiUrl = '/api';
+    const apiUrl = '/api/v1';
 
     // Handle form submission
     form.onsubmit = event => {

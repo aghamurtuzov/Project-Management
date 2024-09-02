@@ -10,7 +10,9 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 
-Route::get('/project/search', [ProjectController::class, 'search']);
-Route::apiResource('/project', ProjectController::class);
-Route::get('/task/search', [TaskController::class, 'search']);
-Route::apiResource('/task', TaskController::class);
+Route::group(['prefix' => 'v1'], function () {
+    Route::get('/project/search', [ProjectController::class, 'search']);
+    Route::apiResource('/project', ProjectController::class);
+    Route::get('/task/search', [TaskController::class, 'search']);
+    Route::apiResource('/task', TaskController::class);
+});
